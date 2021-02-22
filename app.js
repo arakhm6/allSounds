@@ -161,9 +161,9 @@ drumKit.selects.forEach(select =>
 });
 
 drumKit.muteButtons.forEach(btn => 
+{
+    btn.addEventListener('click', function(e)
     {
-        btn.addEventListener('click', function(e)
-        {
-            drumKit.mute(e);
-        })
-    })
+        drumKit.mute(e);
+    });
+});

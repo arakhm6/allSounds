@@ -6,6 +6,11 @@
 
 body {
     font-family: sans-serif;
+    background-image: linear-gradient(to bottom right, blue, green);
+}
+
+h1 {
+    color: rgb(129, 204, 248);
 }
 
 i,
@@ -105,6 +110,8 @@ svg {
 select {
     padding: 1rem;
     font-size: 1rem;
+    color: rgb(6, 112, 173);
+    background: rgb(129, 204, 248);
 }
 
 .mute.active {
